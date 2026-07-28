@@ -1,14 +1,13 @@
 class TgbCli < Formula
   desc "Reliable, auditable Taoguba article collection CLI"
   homepage "https://github.com/tinylion1024/tgb-cli"
-  url "https://github.com/tinylion1024/tgb-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "cc2f1d950e46885ae3b11eaa0db406d6533aaa683ec81e577504eb0d95dc932e"
+  url "https://github.com/tinylion1024/tgb-cli/releases/download/v0.1.0/tgb-cli-v0.1.0-universal-apple-darwin.tar.gz"
+  sha256 "e132dcdd6874d11f67de09342f0f676aaf9fd7cfd5d1caca0e97cb1dc9b28d5b"
+  version "0.1.0"
   license "MIT"
 
-  depends_on "rust" => :build
-
   def install
-    system "cargo", "install", *std_cargo_args
+    bin.install "tgb"
   end
 
   test do

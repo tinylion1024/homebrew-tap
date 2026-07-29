@@ -1,9 +1,9 @@
 class Osamail < Formula
   desc "Tiny, scriptable CLI for Apple Mail"
   homepage "https://github.com/tinylion1024/osamail"
-  url "https://github.com/tinylion1024/osamail/releases/download/v0.1.2/osamail-v0.1.2-universal-apple-darwin.tar.gz"
-  sha256 "dea6177754e4982aa75ca5126bc7e005facb1e94b2b76e8ceebce021b480ebc0"
-  version "0.1.2"
+  url "https://github.com/tinylion1024/osamail/releases/download/v0.2.0/osamail-v0.2.0-universal-apple-darwin.tar.gz"
+  sha256 "faac9d836a0e16ee66657930f73993110a42429a3ede6336a39fb7aca1a253f2"
+  version "0.2.0"
   license "MIT"
 
   depends_on :macos
